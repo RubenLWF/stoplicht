@@ -12,14 +12,14 @@ The beer time comes from the Aurora API (`/api/handler/screen/info/beer-time`) a
 
 ## Hardware
 
-- ESP32 dev board (`esp32dev`)
-- Red, orange and green LEDs
+A vintage 1995 Dutch traffic light, switched at 230 V by the ESP32 through a relay module.
+See [docs/hardware.md](docs/hardware.md) for parts and wiring.
 
-| Light  | GPIO |
-| ------ | ---- |
-| Red    | 25   |
-| Orange | 26   |
-| Green  | 27   |
+| Light  | GPIO | Relay |
+|--------|------|-------|
+| Red    | 25   | IN1   |
+| Orange | 26   | IN2   |
+| Green  | 27   | IN3   |
 
 ## Setup
 
