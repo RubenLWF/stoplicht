@@ -47,7 +47,7 @@ void setLight(Light light)
   digitalWrite(GREEN_PIN, light == LIGHT_GREEN ? HIGH : LOW);
 }
 
-// Runs on the WiFi event task; logs why the connection dropped so iotroam disconnects can be diagnosed.
+// Runs on the WiFi event task; logs why the connection dropped.
 void onWiFiDisconnected(WiFiEvent_t event, WiFiEventInfo_t info)
 {
   uint8_t reason = info.wifi_sta_disconnected.reason;
