@@ -1,5 +1,7 @@
 # Stoplicht
 
+[![Build](https://github.com/RubenLWF/stoplicht/actions/workflows/build.yml/badge.svg)](https://github.com/RubenLWF/stoplicht/actions/workflows/build.yml)
+
 An ESP32-powered traffic light that shows whether it's beer time yet at [GEWIS](https://gewis.nl).
 
 | Light  | Meaning                                    |
